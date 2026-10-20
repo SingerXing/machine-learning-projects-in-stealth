@@ -1,0 +1,51 @@
+{
+  "revision_date": "2026-10-20",
+  "seed": 42,
+  "positive_class": "malignant = 1",
+  "primary_test_fraction": 0.2,
+  "sensitivity_test_fraction": 0.25,
+  "selection_metric": "accuracy",
+  "grid_configurations": 15,
+  "primary_best_parameters": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "liblinear"
+  },
+  "sensitivity_best_parameters": {
+    "model__C": 1,
+    "model__penalty": "l1",
+    "model__solver": "liblinear"
+  },
+  "primary_metrics": {
+    "Baseline": {
+      "accuracy": 0.9649122807017544,
+      "precision_malignant": 0.975,
+      "recall_malignant": 0.9285714285714286,
+      "f1_malignant": 0.9512195121951219,
+      "roc_auc": 0.996031746031746,
+      "specificity_benign": 0.9861111111111112,
+      "true_negative": 71,
+      "false_positive": 1,
+      "false_negative": 3,
+      "true_positive": 39,
+      "test_n": 114
+    },
+    "Tuned": {
+      "accuracy": 0.9824561403508771,
+      "precision_malignant": 1.0,
+      "recall_malignant": 0.9523809523809523,
+      "f1_malignant": 0.975609756097561,
+      "roc_auc": 0.9976851851851852,
+      "specificity_benign": 1.0,
+      "true_negative": 72,
+      "false_positive": 0,
+      "false_negative": 2,
+      "true_positive": 40,
+      "test_n": 114
+    }
+  },
+  "nested_cv_accuracy_mean": {
+    "Baseline": 0.9714285714285715,
+    "Tuned": 0.9670329670329672
+  }
+}
