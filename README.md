@@ -13,6 +13,17 @@ Machine learning notebooks from my internship and project work at Stealth.
 
 The revision addresses the feedback with additional visualizations, a 25% test-split check, explicit error analysis, and fixes to preprocessing and tuning. Results are reported as observed, without assuming tuning always improves performance.
 
+## Task 2210: original → mentor feedback → revision
+
+| Stage | Files |
+| --- | --- |
+| Original submission | [Model Optimization Pipeline.ipynb](Model%20Optimization%20Pipeline.ipynb), preserved with its original saved outputs. |
+| Mentor feedback | [Written feedback from July 27, 2026](feedback/task-2210-mentor-feedback.md). |
+| Revised version | [Notebook](revised/task-2210/model_optimization_pipeline_revised.ipynb), [HTML export](revised/task-2210/model_optimization_pipeline_revised.html), and [revision notes](revised/task-2210/README.md). |
+| Revised results | [Figures and tables](revised/task-2210/artifacts/). |
+
+This revision makes the resource budget consistent across Grid, Random, and Bayesian search and adds controlled search-space sensitivity analysis. Search choices use cross-validation; test results and timings are reported with their limitations.
+
 ## Original project notebooks
 
 | Notebook | Project |
@@ -25,10 +36,10 @@ The revision addresses the feedback with additional visualizations, a 25% test-s
 - Python, Jupyter Notebook, NumPy, pandas, Matplotlib, and scikit-learn.
 - Text classification additionally uses Ray Tune and HyperOpt.
 - 20 Newsgroups downloads through scikit-learn if not cached. Breast-cancer data ships with scikit-learn.
-- The revised logistic-regression notebook has its own [requirements](revised/requirements.txt) and [recorded environment](revised/artifacts/environment.json).
+- Both revisions include pinned dependencies and recorded execution environments: [logistic regression](revised/README.md) and [text-classification optimization](revised/task-2210/README.md).
 
 ## Original notebook status
 
 Both root-level notebooks retain their original code, saved outputs, and plots. They were not rerun during upload; their saved results are historical records.
 
-The original logistic-regression notebook has a training-variable naming mismatch. It remains as submitted; this is fixed in the separate revision. The text-classification notebook has not been revised as part of Task 2203.
+The original logistic-regression notebook has a training-variable naming mismatch. It remains as submitted; this is fixed in the separate revision. The separate Task 2210 revision addresses the feedback on the text-classification project.
