@@ -1,10 +1,10 @@
 # Mentor feedback — Task 2203
 
-Transcription of the visible feedback in the [screenshot provided by Singer Xing](task-2203-mentor-feedback.png). The screenshot does not show the sender's name or the feedback date. Paragraphs and wording are preserved; screen-width line breaks are removed.
+Mentor feedback provided by Singer Xing. The salutation has been updated to Singer; the feedback wording is otherwise preserved.
 
 ---
 
-Hi Mochi,
+Hi Singer,
 
 Thank you for submitting Task 2203. We reviewed your logistic regression model optimization project, and overall this is a strong and well-executed machine learning submission.
 

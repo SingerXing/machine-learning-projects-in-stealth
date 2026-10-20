@@ -23,7 +23,7 @@ Selection remains accuracy-based. The test-split experiments reuse data and are 
 
 ## Verification
 
-The revised notebook was executed from a fresh kernel on October 20, 2026. All 10 code cells completed. Primary metrics were independently checked against the saved predictions, and the five plots were visually reviewed. Both original notebooks and the feedback screenshot were checked against their source files.
+The revised notebook was executed from a fresh kernel on October 20, 2026. All 10 code cells completed. Primary metrics were independently checked against the saved predictions, and the five plots were visually reviewed. Both original notebooks were checked against their source files.
 
 ## Reproduce
 

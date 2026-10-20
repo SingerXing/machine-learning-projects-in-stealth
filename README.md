@@ -7,7 +7,7 @@ Machine learning notebooks from my internship and project work at Stealth.
 | Stage | Files |
 | --- | --- |
 | Original submission | [model_optimation.ipynb](model_optimation.ipynb), preserved with its original saved outputs. |
-| Mentor feedback | [Full transcription](feedback/task-2203-mentor-feedback.md) and [original screenshot](feedback/task-2203-mentor-feedback.png). |
+| Mentor feedback | [Written feedback](feedback/task-2203-mentor-feedback.md). |
 | Revised version | [Executed notebook](revised/model_optimation_revised.ipynb), [HTML export](revised/model_optimation_revised.html), and [revision notes and run instructions](revised/README.md). |
 | Revised results | [Summary](revised/artifacts/results_summary.md) and [figures and tables](revised/artifacts/). |
 
